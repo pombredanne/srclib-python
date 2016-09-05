@@ -1,0 +1,147 @@
+{
+  "Defs": [
+    {
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "Path": "mod.py/mod.mod",
+      "Name": "mod.py",
+      "Kind": "module",
+      "File": "mod.py",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "Data": {
+        "Keyword": "module",
+        "Kind": "module",
+        "Name": "mod",
+        "Separator": "",
+        "Type": ""
+      }
+    },
+    {
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "Path": "setup.py/setup.setup",
+      "Name": "setup.py",
+      "Kind": "module",
+      "File": "setup.py",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "Data": {
+        "Keyword": "module",
+        "Kind": "module",
+        "Name": "setup",
+        "Separator": "",
+        "Type": ""
+      }
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "PipPackage",
+      "DefUnit": "single-module-lib",
+      "DefPath": "mod.py/mod.mod",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "Def": true,
+      "File": "mod.py",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefUnitType": "PipPackage",
+      "DefUnit": "single-module-lib",
+      "DefPath": "setup.py/setup.install_requires",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "File": "setup.py",
+      "Start": 177,
+      "End": 193
+    },
+    {
+      "DefUnitType": "PipPackage",
+      "DefUnit": "single-module-lib",
+      "DefPath": "setup.py/setup.name",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "File": "setup.py",
+      "Start": 41,
+      "End": 45
+    },
+    {
+      "DefUnitType": "PipPackage",
+      "DefUnit": "single-module-lib",
+      "DefPath": "setup.py/setup.py_modules",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "File": "setup.py",
+      "Start": 153,
+      "End": 163
+    },
+    {
+      "DefUnitType": "PipPackage",
+      "DefUnit": "single-module-lib",
+      "DefPath": "setup.py/setup.setup",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "Def": true,
+      "File": "setup.py",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefUnitType": "PipPackage",
+      "DefUnit": "single-module-lib",
+      "DefPath": "setup.py/setup.url",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "File": "setup.py",
+      "Start": 92,
+      "End": 95
+    },
+    {
+      "DefUnitType": "PipPackage",
+      "DefUnit": "single-module-lib",
+      "DefPath": "setup.py/setup.version",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "File": "setup.py",
+      "Start": 71,
+      "End": 78
+    },
+    {
+      "DefRepo": "github.com/pypa/setuptools",
+      "DefUnitType": "PipPackage",
+      "DefUnit": "setuptools",
+      "DefPath": "setuptools/__init__.py/setuptools.setup",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "File": "setup.py",
+      "Start": 23,
+      "End": 28
+    },
+    {
+      "DefRepo": "github.com/pypa/setuptools",
+      "DefUnitType": "PipPackage",
+      "DefUnit": "setuptools",
+      "DefPath": "setuptools/__init__.py/setuptools.setup",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "File": "setup.py",
+      "Start": 30,
+      "End": 35
+    },
+    {
+      "DefRepo": "github.com/pypa/setuptools",
+      "DefUnitType": "PipPackage",
+      "DefUnit": "setuptools",
+      "DefPath": "setuptools/__init__.py/setuptools.setuptools",
+      "UnitType": "PipPackage",
+      "Unit": "single-module-lib",
+      "File": "setup.py",
+      "Start": 5,
+      "End": 15
+    }
+  ]
+}

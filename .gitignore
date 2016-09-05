@@ -1,0 +1,7 @@
+.env
+build/
+dist/
+grapher.egg-info/
+vendor/*/
+__pycache__/
+.srclib-cache/

@@ -1,0 +1,31 @@
+{
+  "Tools": [
+    {
+      "Subcmd": "scan",
+      "Op": "scan",
+      "SourceUnitTypes": [
+        "PipPackage",
+        "DjangoApp",
+        "PythonTestPackage"
+      ]
+    },
+    {
+      "Subcmd": "graph",
+      "Op": "graph",
+      "SourceUnitTypes": [
+        "PipPackage",
+        "DjangoApp",
+        "PythonTestPackage"
+      ]
+    },
+    {
+      "Subcmd": "depresolve",
+      "Op": "depresolve",
+      "SourceUnitTypes": [
+        "PipPackage",
+        "DjangoApp",
+        "PythonTestPackage"
+      ]
+    }
+  ]
+}
